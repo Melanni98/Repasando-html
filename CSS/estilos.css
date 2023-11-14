@@ -1,0 +1,13 @@
+h1 {
+    color:crimson
+}
+h2{
+    color:deeppink
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+figcaption {
+    text-align: center;
+}

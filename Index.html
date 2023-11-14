@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="CSS/estilos.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -53,15 +54,55 @@
 <hr>
 <hr>
 <h2>Etiquetas semanticas estructurales</h2>
-<div>DIV: Es una etiqueta contenedora que no tiene semantica</div>
-<header>HEADER: cabecera de un sitio web o una seccion</header>
-<main>MAIN: define la seccion principal del documento, solo puede existir una por documento</main>
-<footer>FOOTER: pie de pagina de un sitio web o una seccion</footer>
-<nav>NAV: representa un menú de navegación</nav>
-<article>ARTICLE: representa una seccion de autocontenido (que por si solo se explica)</article>
-<aside>ASIDE: representa contenido complementario o secundario</aside>
-<section>SECTION: representa una seccion de contenido genérico</section>
-<address>ADDRESS: representa una dirección física</address>
+<div style= "background-color: #fd950c;">DIV: Es una etiqueta contenedora que no tiene semantica</div>
+<header style= "background-color: rgb(248, 16, 16);">HEADER: cabecera de un sitio web o una seccion</header>
+<main style= "background-color: rgb(6, 174, 252);">MAIN: define la seccion principal del documento, solo puede existir una por documento</main>
+<footer style= "background-color: #14e901;">FOOTER: pie de pagina de un sitio web o una seccion</footer>
+<nav style= "background-color: #253fd4;">NAV: representa un menú de navegación</nav>
+<article style= "background-color: #376e04;">ARTICLE: representa una seccion de autocontenido (que por si solo se explica)</article>
+<aside style="background-color: #ed64e1;">ASIDE: representa contenido complementario o secundario</aside>
+<section style="background-color: #c5067c;">SECTION: representa una seccion de contenido genérico</section>
+<address style= "background-color: #7dffb7;">ADDRESS: representa una dirección física</address>
 <hr>
+<h2>Etiqueta de bloque VS Etiqueta de línea</h2>
+<div style= "background-color: #5f9ea0;">La etiqueta de bloque por excelencia es la DIV</div>
+<span style="background-color: #ed64e1;">La etiqueta de línea por excelencia es la SPAN</span>
+<span>Hola, soy otra SPAN</span>
+<script>
+    console.log("Hola, estamos aprendiendo HTML")
+</script>
+<script src="JS/codigo.js"></script>
+<hr>
+<h2> Imágenes</h2>
+<img src="IMG/homero.gif" alt="Homero Simpson Saltando">
+<img src="IMG/homero feliz.jpg" alt="Homero Simpson Feliz">
+<img src="IMG/homero.png" width="70%" alt="">
+<script></script>
+<hr>
+<h2>Figuras</h2>
+<figure>
+    <img src="IMG/homero feliz.jpg" alt="Homero Simpson Feliz">
+    <figcaption>Homero Simpson Feliz</figcaption>
+    <img src="IMG/homero.gif" alt="Homero Simpson Saltando">
+    <figcaption>Homero Simpson Saltando</figcaption>
+</figure>
+<hr>
+<h2>Listas ordenadas</h2>
+<h3>Estaciones del año</h3>
+<ol>
+    <li>Privamera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+</ol>
+<ol start="5">
+    <li>Privamera</li>
+    <li>Verano</li>
+    <li>Otoño</li>
+    <li>Invierno</li>
+</ol>
+<hr>
+<h2>Enlace</h2>
+<a href="index2.html">Desde aquí vuelvo a Index</a>
 </body>
 </html>
