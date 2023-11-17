@@ -4,13 +4,23 @@
     <link rel="stylesheet" href="CSS/estilos.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Repasando HTML</title>
 </head>
 <body>
-    <h1>Aprendiendo HTML</h1>
-    <p>Hola escribiendo mi primer documento HTML</p> 
+    <h1 id="inicio">Aprendiendo HTML</h1>
+    <ul class="indice">
+        <li><a href="Index.html#encabezados">Tipos de Encabezados</a></li>
+        <li><a href="Index.html#etiquetas de formateo">Etiquetas de Formateo</a></li>
+        <li><a href="Index.html#etiquetas semanticas estructurales">Etiquetas Semanticas Estructurales</a></li>
+        <li><a href="Index.html#etiqueta de bloque vs etiqueta de línea">Etiqueta de Bloque VS Línea</a></li>
+        <li><a href="Index.html#imágenes">Imágenes</a></li>
+        <li><a href="Index.html#figuras">Figuras</a></li>
+        <li><a href="Index.html#lista ordenada">Lista Ordenada</a></li>
+        <li><a href="Index.html#enlaces">Enlaces</a></li>
+    </ul>
+    <p>Hola escribiendo mi primer documento HTML</p>
   <hr>
-  <h1>Encabezados</h1>
+  <h2 id="encabezado">Tipos de Encabezado</h2>
     <h3>Encabezado nivel 3</h3>
   <h4>Encabezado nivel 4</h4>
   <h5>Encabezado nivel 5</h5>
@@ -23,10 +33,12 @@
 </p>
 <blockquote>Solo se que no se nada</blockquote>
 <cite>Socrates</cite>
+<a href="Index.html#inicio">👆</a> 
 <hr>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Laudantium, eaque nisi corrupti mollitia expedita necessitatibus, earum ipsam quos cum possimus, suscipit itaque quis? <br>Quibusdam aliquam explicabo ad omnis. Accusantium, labore.</p>
+<a href="Index.html#inicio">👆</a> 
 <hr>
-<h2>Etiquetas de formateo</h2>
+<h2 id="etiquetas de formateo"> Formateo</h2> de formateo</h2>
 <pre>
     <p>Tareas por hacer:
         En el curso:
@@ -51,9 +63,9 @@
     }
 </code>
 </p>
+<a href="Index.html#inicio">👆</a> 
 <hr>
-<hr>
-<h2>Etiquetas semanticas estructurales</h2>
+<h2 id="etiquetas semanticas estructurales">Semanticas Estructurales</h2> semanticas estructurales</h2>
 <div style= "background-color: #fd950c;">DIV: Es una etiqueta contenedora que no tiene semantica</div>
 <header style= "background-color: rgb(248, 16, 16);">HEADER: cabecera de un sitio web o una seccion</header>
 <main style= "background-color: rgb(6, 174, 252);">MAIN: define la seccion principal del documento, solo puede existir una por documento</main>
@@ -63,8 +75,9 @@
 <aside style="background-color: #ed64e1;">ASIDE: representa contenido complementario o secundario</aside>
 <section style="background-color: #c5067c;">SECTION: representa una seccion de contenido genérico</section>
 <address style= "background-color: #7dffb7;">ADDRESS: representa una dirección física</address>
+<a href="Index.html#inicio">👆</a> 
 <hr>
-<h2>Etiqueta de bloque VS Etiqueta de línea</h2>
+<h2 id="etiqueta de bloque vs etiqueta de línea"> Bloque VS Línea</h2> de bloque VS Etiqueta de línea</h2>
 <div style= "background-color: #5f9ea0;">La etiqueta de bloque por excelencia es la DIV</div>
 <span style="background-color: #ed64e1;">La etiqueta de línea por excelencia es la SPAN</span>
 <span>Hola, soy otra SPAN</span>
@@ -72,22 +85,25 @@
     console.log("Hola, estamos aprendiendo HTML")
 </script>
 <script src="JS/codigo.js"></script>
+<a href="Index.html#inicio">👆</a> 
 <hr>
-<h2> Imágenes</h2>
+<h2 id="imágenes">Imágenes</h2>
 <img src="IMG/homero.gif" alt="Homero Simpson Saltando">
 <img src="IMG/homero feliz.jpg" alt="Homero Simpson Feliz">
 <img src="IMG/homero.png" width="70%" alt="">
 <script></script>
+<a href="Index.html#inicio">👆</a> 
 <hr>
-<h2>Figuras</h2>
+<h2 id="figuras">Figuras</h2>
 <figure>
     <img src="IMG/homero feliz.jpg" alt="Homero Simpson Feliz">
     <figcaption>Homero Simpson Feliz</figcaption>
     <img src="IMG/homero.gif" alt="Homero Simpson Saltando">
     <figcaption>Homero Simpson Saltando</figcaption>
 </figure>
+<a href="Index.html#inicio">👆</a> 
 <hr>
-<h2>Listas ordenadas</h2>
+<h2 id="lista ordenada">Lista</h2>
 <h3>Estaciones del año</h3>
 <ol>
     <li>Privamera</li>
@@ -96,14 +112,20 @@
     <li>Invierno</li>
 </ol>
 <ol start="5">
-    <li>Privamera</li>
-    <li>Verano</li>
-    <li>Otoño</li>
-    <li>Invierno</li>
+    <li> 🌺Privamera</li>
+    <li>🌞Verano</li>
+    <li>🌤Otoño</li>
+    <li>❄Invierno</li>
 </ol>
+<a href="Index.html#inicio">👆</a> 
 <hr>
-<h2>Enlace</h2>
+<h2 id="enlaces">Enlaces</h2>
 <a href="index2.html">Desde aquí vuelvo a Index</a>
-<hr>
+<br>
+<a href="https://www.w3schools.com/html/html_editor.asp" target="_blank" rel="nofollow"> Visitando el sitio de HTML</a>
+<br><br>
+<a href="https://web.whatsapp.com/" target="_blank"><img src="IMG/icons8-whatsapp-100.png" alt="Esta imagen abre mi whatsapp" width="50" height="50"></a> 
+<a href="Index.html#inicio">👆</a> 
+
 </body>
 </html>
