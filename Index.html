@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Repasando HTML</title>
+    <link rel="stylesheet" href="CSS/colores.css">
+    <link rel="stylesheet" href="margenes-relleno.css">
 </head>
 <body>
     <h1 id="inicio">Aprendiendo HTML</h1>
-    <ul class="indice">
-        <li><a href="Index.html#encabezados">Tipos de Encabezados</a></li>
+    <ul >
+        <li ><a href="Index.html#encabezados" class="indice">Tipos de Encabezados</a></li>
         <li><a href="Index.html#etiquetas de formateo">Etiquetas de Formateo</a></li>
         <li><a href="Index.html#etiquetas semanticas estructurales">Etiquetas Semanticas Estructurales</a></li>
         <li><a href="Index.html#etiqueta de bloque vs etiqueta de línea">Etiqueta de Bloque VS Línea</a></li>
@@ -17,10 +19,16 @@
         <li><a href="Index.html#figuras">Figuras</a></li>
         <li><a href="Index.html#lista ordenada">Lista Ordenada</a></li>
         <li><a href="Index.html#enlaces">Enlaces</a></li>
-        <li><a href="Index.html#enlaces especiales">Enlaces Especiales</a></li>
+        <li><a href="Index.html#enlaces-especiales">Enlaces Especiales</a></li>
+        <li><a href="Index.html#enlaces-especiales">Elementos Interactivos</a></li>
+        <li> <a href="Index.html#audio-video">Audio y Video</a></li>
+        <li><a href="Index.html#formularios">Formularios</a></li>
+        <li><a href="Index.html#atributos-de-formularios">Atributos de Formularios</a></li>
+        <li><a href="Index.html#bloques-lineas">Bloques y Líneas</a></li>
+        
         
     </ul>
-    <p>Hola escribiendo mi primer documento HTML</p>
+    <p class="principal">Hola escribiendo mi primer documento HTML</p>
   <hr>
   <h2 id="encabezado">Tipos de Encabezado</h2>
     <h3>Encabezado nivel 3</h3>
@@ -37,10 +45,10 @@
 <cite>Socrates</cite>
 <a href="Index.html#inicio">👆</a> 
 <hr>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Laudantium, eaque nisi corrupti mollitia expedita necessitatibus, earum ipsam quos cum possimus, suscipit itaque quis? <br>Quibusdam aliquam explicabo ad omnis. Accusantium, labore.</p>
+<p class="acordeón">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Laudantium, eaque nisi corrupti mollitia expedita necessitatibus, earum ipsam quos cum possimus, suscipit itaque quis? <br>Quibusdam aliquam explicabo ad omnis. Accusantium, labore.</p>
 <a href="Index.html#inicio">👆</a> 
 <hr>
-<h2 id="etiquetas de formateo"> Formateo</h2> de formateo</h2>
+<h2 id="etiquetas de formateo"> Formateo</h2>
 <pre>
     <p>Tareas por hacer:
         En el curso:
@@ -128,7 +136,7 @@
 <br><br>
 <a href="https://web.whatsapp.com/" target="_blank"><img src="IMG/icons8-whatsapp-100.png" alt="Esta imagen abre mi whatsapp" width="50" height="50"></a> 
 <a href="Index.html#inicio">👆</a> 
-<h2>Enlaces Especiales</h2>
+<h2 id="enlaces-especiales">Enlaces Especiales</h2>
 <a href="mailto:melanimaria98@gmail.com">Enlace a correo electrónico</a><br>
 <a href="Tel:3834501432">Enlace a teléfono</a><br>
 <a href="https://api.whatsapp.com/send?phone=543834501432&text=Usuario de tu pagina web -Repasando HTML - quiere contactarse contigo" target="_blank">Enlace a whatsapp</a><br>
@@ -139,8 +147,8 @@
 <details>
     <summary>Título del acordeón</summary>
     <article>
-        <h3>Contenido del acordeón</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa atque accusantium inventore similique! Fugit earum veniam quo dolor praesentium quod culpa repellat officia magnam incidunt. Sit vitae itaque dicta eos!</p>
+        <h3 class="acordeón">Contenido del acordeón</h3>
+        <p class="lorem1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa atque accusantium inventore similique! Fugit earum veniam quo dolor praesentium quod culpa repellat officia magnam incidunt. Sit vitae itaque dicta eos!</p>
         <img src="IMG/IMAGEN 1.jpg" alt="Flor">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis distinctio soluta, explicabo nesciunt repellendus voluptatem eos consectetur ea in modi? Eius quisquam veritatis placeat ipsam rerum, facilis maiores sed ad.</p>
     </article>
@@ -201,14 +209,23 @@
         <br>
         <input type="reset">
     </form>
-    <h4>Formularios de contacto</h4>
+    
+    <h4 class="fondos">Formularios de contacto</h4>
     <form action="https://formsubmit.co/melanimaria98@gmail.com" method="POST">
         <input type="text" name="nombre" placeholder="Escribe tu nombre" title="El nombre solo acepta letras y espacios en blanco" required>
         <input type="text" name="correo" placeholder="Escribe tu correo" title="Formato de correo inválido" required><br>
         <textarea name="comentarios" cols="30" rows="10"></textarea><br>
         <input type="submit"><br>
+        <a href="Index.html#inicio">👆</a>
     </form>
-    
+    <h2 id="bloques-lineas">Bloques y Líneas</h2>
+    <h2>Subtitulo 2</h2>
+    <div>
+        <a href="#">Enlace 1</a>
+        <a href="#">Enlace 2</a>
+        <a href="#">Enlace 3</a>
+        <a href="#">Enlace 4</a>
+    </div>
     
 
 

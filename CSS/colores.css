@@ -1,0 +1,27 @@
+#inicio {
+    color: rgb(29, 26, 25);
+}
+h1 {
+    text-align: center;
+    background-color: #DC8686;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+}
+.principal {
+    background-color: #D2DE32;
+    padding: 40px 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+h2 {
+    margin: 100px 50px;
+    background-color: rgb(69, 209, 186);
+    display: inline-block;
+}
+a {
+    background-color: #FFFB73;
+    display: block;
+}
