@@ -1,15 +1,15 @@
 .nav-enlace-desaparecer {
-    background: green;
+    background: rgb(92, 207, 92);
     color: #fff;
-    padding: 10px 30px;
+    padding: 15px 15px;
     text-decoration: none;
 }
 .nav-enlace-desaparecer {
     background: mediumaquamarine;
 }
 nav {
-    background: darkorchid;
-    padding: 10px;
+    background: #FF90BC;
+    padding: 15px;
     display: flex;
     justify-content: space-around;
 }
