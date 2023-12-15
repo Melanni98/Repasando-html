@@ -7,11 +7,14 @@
     <title>Repasando HTML</title>
     <link rel="stylesheet" href="CSS/colores.css">
     <link rel="stylesheet" href="margenes-relleno.css">
+    <title>Barra de Navegacion</title>
+    <link rel="stylesheet" href="CSS/navbar.css">
     
 </head>
-<body>
+<body style="background-image: url(IMG/maxresdefault.jpg);">
     <h1 id="inicio">Aprendiendo HTML</h1>
-    <ul >
+    <ul>
+
         <li ><a href="Index.html#encabezados" class="indice">Tipos de Encabezados</a></li>
         <li><a href="Index.html#etiquetas de formateo">Etiquetas de Formateo</a></li>
         <li><a href="Index.html#etiquetas semanticas estructurales">Etiquetas Semanticas Estructurales</a></li>
@@ -37,21 +40,22 @@
   <h5>Encabezado nivel 5</h5>
   <h6>Encabezado nivel 6</h6>
   <hr>
-  <p>
+  <p style="background-color: rgb(252, 157, 33);">
     Palabras <en:b>Negrita</en:b>,<i>Cursiva</i>,<u>Subrayado</u>, e=mc<sup>2</sup>,H<sub>2</sub>0,<mark>Texto resaltado</mark>,<small>Letras pequeñas</small>
   </p> 
-  <p><strong>Este texto es importante</strong>, <em>Este texto hace enfasis</em>
+  <p><strong style="background-color: rgb(252, 157, 33);">Este texto es importante</strong>, <em>Este texto hace enfasis</em>
 </p>
-<blockquote>Solo se que no se nada</blockquote>
+<blockquote style="background-color: #EEC759;">Solo se que no se nada</blockquote>
 <cite>Socrates</cite>
 <a href="Index.html#inicio">👆</a> 
 <hr>
-<p class="acordeón">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Laudantium, eaque nisi corrupti mollitia expedita necessitatibus, earum ipsam quos cum possimus, suscipit itaque quis? <br>Quibusdam aliquam explicabo ad omnis. Accusantium, labore.</p>
+<p style="background-color: rgb(19, 17, 15);" class="acordeón">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Laudantium, eaque nisi corrupti mollitia expedita necessitatibus, earum ipsam quos cum possimus, suscipit itaque quis? <br>Quibusdam aliquam explicabo ad omnis. Accusantium, labore.</p>
 <a href="Index.html#inicio">👆</a> 
 <hr>
-<h2 id="etiquetas de formateo"> Formateo</h2>
+<h2 style="background-color: aliceblue;"
+ id="etiquetas de formateo"> Formateo</h2>
 <pre>
-    <p>Tareas por hacer:
+    <p style="background-color: #ed64e1;">Tareas por hacer:
         En el curso:
             -No faltar a clase.
             -Respetar la teoria.
@@ -63,7 +67,7 @@
     </p>
 </pre>
 <p>
-    <code>Este texto esta en formato codigo</code>
+    <code style="background-color:#7dffb7 ;">Este texto esta en formato codigo</code>
 </p>
 </pre>
 <p>
@@ -98,8 +102,8 @@
 <script src="JS/codigo.js"></script>
 <a href="Index.html#inicio">👆</a> 
 <hr>
-<h2 id="imágenes">Imágenes</h2>
-<img src="IMG/homero.gif" alt="Homero Simpson Saltando">
+<h2 style="background-color: rgb(8, 8, 7);" id="imágenes">Imágenes</h2><br>
+<img src="IMG/programando.gif" alt="Homero Simpson Saltando">
 <img src="IMG/homero feliz.jpg" alt="Homero Simpson Feliz">
 <img src="IMG/homero.png" width="70%" alt="">
 <script></script>
@@ -227,7 +231,24 @@
         <a href="#">Enlace 3</a>
         <a href="#">Enlace 4</a>
     </div>
-    
+    <nav>
+        <button class="nav-boton" onclick="accion()">Menú</button>
+        <a href="#" class="nav-enlace-desaparecer">INICIO</a>
+        <a href="#" class="nav-enlace-desaparecer">NOSOTROS</a>
+        <a href="#" class="nav-enlace-desaparecer">SERVICIOS</a>
+        <a href="#" class="nav-enlace-desaparecer">CONTACTO</a>
+    </nav>
+    <script>
+        function accion() {
+            console.log( 'El botón funciona');
+            var ancla = document.
+            getElementsByClassName('nav-enlace')
+            for(var i = 0; i < ancla.length; i++) {
+                ancla[i].classList.toggle
+                ('desaparecer');
+            }
+        }
+    </script>
 
 
 </body>

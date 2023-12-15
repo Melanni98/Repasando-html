@@ -1,9 +1,9 @@
 #inicio {
-    color: rgb(29, 26, 25);
+    color: #3E001F;
 }
 h1 {
     text-align: center;
-    background-color: #DC8686;
+    background-color: #FFE5AD;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 50px;
@@ -11,7 +11,7 @@ h1 {
    
 }
 .principal {
-    background-color: #D2DE32;
+    background-color: #F11A7B;
     padding: 40px 10px;
     text-align: center;
     border-radius: 15px;
@@ -20,8 +20,29 @@ h2 {
     margin: 100px 50px;
     background-color: rgb(69, 209, 186);
     display: inline-block;
+
 }
 a {
-    background-color: #FFFB73;
+    background-color: #FFE5AD;
     display: block;
+}
+#encabezado {
+    background-color: #E26EE5;
+    color: #0f0e0f
+    
+}
+h3{
+    background-color:  #FFE5AD;
+}
+h4{
+    background-color:  #FFE5AD;
+}
+h5{
+    background-color:  #FFE5AD;
+}
+h6{
+    background-color:  #FFE5AD;
+}
+#enlace {
+    color: #0f0e0f;
 }

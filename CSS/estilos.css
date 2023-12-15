@@ -2,10 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 h1 {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
     color:rgb(171, 82, 255)
+    
 }
 h2{
     color:deeppink
+    
 }
 img {
     max-width: 100%;
@@ -37,5 +42,44 @@ li {
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.nav-enlace-desaparecer {
+    background: rgb(92, 207, 92);
+    color: #fff;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+.nav-enlace-desaparecer {
+    background: rgb(14, 15, 15);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+nav {
+    background: #f08bd2;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-boton {
+    background: salmon;
+    color: #fff;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: none;
+}
+@media (max-width: 600px) {
+    nav {
+        background: blue;
+        flex-direction: column;
+    }
+    .nav-enlace {
+        margin: 10px 0;
+    }
+    .nav-boton {
+        display: inline-block;
+    }
 }
 
